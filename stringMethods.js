@@ -2,7 +2,7 @@
 
 // Properties
     // .length
-        // returns mumber of characters in a string
+        // returns number of characters in a string
             const myString = 'donkey';
             console.log(myString.length)
                 // the return is 6 because there are 6 characters in the word donkey
@@ -17,7 +17,7 @@
                 // returns the charcter 'k' because we are asking for the 3 position/index
 
     // indexOf()
-        // returns the index of the charact or group of characters we're looking for, and it tells us the position/index of the FIRST occurance within the string
+        // returns the index of the character or group of characters we're looking for, and it tells us the position/index of the FIRST occurance within the string
             console.log(myString.indexOf('onk'))
                  // returns 1 because the 'o' in 'onk' starts at the 1 index
             console.log(myString.indexOf('ey'))
